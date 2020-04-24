@@ -23,6 +23,27 @@
   color: #61dafb;
 }
 
+.container {
+  max-width: 850px;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #868ba1;
+  text-align: left;
+  background-color: #f0f2f7 !important;
+}
+
+.card-info {
+  border-radius: 3px;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.07);
+  background-color: #fff;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
